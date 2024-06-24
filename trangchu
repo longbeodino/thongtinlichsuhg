@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example of JavaScript Variables in HTML</title>
+</head>
+<body>
+    <h1 id="greeting"></h1>
+
+    <script>
+        // Khai báo biến trong JavaScript
+        var name = "Alice";
+        var greetingMessage = "Hello, " + name + "!";
+
+        // Sử dụng biến để thay đổi nội dung HTML
+        document.getElementById("greeting").textContent = greetingMessage;
+    </script>
+</body>
+</html>
